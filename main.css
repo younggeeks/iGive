@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background:transparent;
+}
+html{
+    font-family: Circular Std, sans-serif
+}
+.landing{
+    background: darkgrey;
+    height:100vh;
+    min-height: 600px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.signupBtn{
+    border:1px solid white;
+    border-radius: 100px;
+    padding:0.6em 1.75em;
+}
+.joinUsBtn{
+    background:#1F2122;
+    border:1px solid white;
+    border-radius: 100px;
+    text-align: center;
+    display:block;
+    color:white;
+    text-decoration: none;
+    width:160px;
+    margin-top: 40px;
+    padding:0.6em 1.75em;
+}
+.nav{
+    padding-top:3em;
+}
+.links{
+    float:right;
+    text-align: right;
+}
+.links a {
+    text-decoration: none;
+    color:white;
+    margin-left: 25px;
+    vertical-align: middle
+}
+.logo{
+    width:160px;
+    vertical-align: middle;
+}
+.landingWrapper{
+    width:90%;
+    margin:auto;
+}
+.landingContent{
+    width:90%;
+    margin: 150px auto 0 auto;
+    display:flex;
+}
+.contentLeft{
+    flex:0 0 55%;
+}
+.contentRight{
+    flex:0 0 45%;
+}
+.kids{
+    width:420px;
+    margin-top:-55px;
+}
